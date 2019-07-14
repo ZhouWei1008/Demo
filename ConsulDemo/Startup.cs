@@ -69,7 +69,7 @@ namespace ConsulDemo
             string strPcName = Dns.GetHostName();
             //得到本机IP地址数组
             IPHostEntry ipEntry = Dns.GetHostEntry(strPcName);
-            string ip = "192.168.1.110";
+            string ip = "192.168.1.105";
             string port = "5000";
             string serviceName = "ConsulDemo";
             string serviceId = $"{serviceName}-{Guid.NewGuid()}";

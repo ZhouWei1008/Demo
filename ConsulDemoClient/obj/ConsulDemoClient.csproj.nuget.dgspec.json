@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Demo\\ConsulDemo\\ConsulDemo.csproj": {}
+    "E:\\Demo\\ConsulDemoClient\\ConsulDemoClient.csproj": {}
   },
   "projects": {
-    "E:\\Demo\\ConsulDemo\\ConsulDemo.csproj": {
+    "E:\\Demo\\ConsulDemoClient\\ConsulDemoClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\ConsulDemo\\ConsulDemo.csproj",
-        "projectName": "ConsulDemo",
-        "projectPath": "E:\\Demo\\ConsulDemo\\ConsulDemo.csproj",
+        "projectUniqueName": "E:\\Demo\\ConsulDemoClient\\ConsulDemoClient.csproj",
+        "projectName": "ConsulDemoClient",
+        "projectPath": "E:\\Demo\\ConsulDemoClient\\ConsulDemoClient.csproj",
         "packagesPath": "C:\\Users\\zhangjingwen\\.nuget\\packages\\",
-        "outputPath": "E:\\Demo\\ConsulDemo\\obj\\",
+        "outputPath": "E:\\Demo\\ConsulDemoClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,21 +42,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Consul": {
-              "target": "Package",
-              "version": "[0.7.2.6, )"
-            },
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
