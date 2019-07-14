@@ -16,7 +16,7 @@ namespace ConsulDemo.Controllers
         public IActionResult Get()
         {
             Console.WriteLine("健康检查" + DateTime.Now);
-            return Content("ok");
+            return Ok("ok");
         }
     }
 }

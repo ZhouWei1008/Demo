@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Demo\\ConsulDemo\\ConsulDemo.csproj": {}
+    "F:\\Demo\\ConsulDemo\\ConsulDemo.csproj": {}
   },
   "projects": {
-    "f:\\Demo\\ConsulDemo\\ConsulDemo.csproj": {
+    "F:\\Demo\\ConsulDemo\\ConsulDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Demo\\ConsulDemo\\ConsulDemo.csproj",
+        "projectUniqueName": "F:\\Demo\\ConsulDemo\\ConsulDemo.csproj",
         "projectName": "ConsulDemo",
-        "projectPath": "f:\\Demo\\ConsulDemo\\ConsulDemo.csproj",
+        "projectPath": "F:\\Demo\\ConsulDemo\\ConsulDemo.csproj",
         "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
-        "outputPath": "f:\\Demo\\ConsulDemo\\obj\\",
+        "outputPath": "F:\\Demo\\ConsulDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
