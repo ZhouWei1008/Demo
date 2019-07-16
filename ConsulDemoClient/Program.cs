@@ -6,10 +6,10 @@ namespace ConsulDemoClient
     {
         static void Main(string[] args)
         {
-              using (var consul = new Consul.ConsulClient(c =>
-            {
-                c.Address = new Uri("http://127.0.0.1:8500");
-            }))
+            using (var consul = new Consul.ConsulClient(c =>
+          {
+              c.Address = new Uri("http://192.168.1.109:8500");
+          }))
             {
                 //取在Consul注册的全部服务
                 var services = consul.Agent.Services().Result.Response;
@@ -18,7 +18,7 @@ namespace ConsulDemoClient
                     Console.WriteLine($"ID={s.ID},Service={s.Service},Addr={s.Address},Port={s.Port}");
                 }
             }
- 
+
             Console.ReadKey();
         }
     }
