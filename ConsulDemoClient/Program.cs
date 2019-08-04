@@ -8,7 +8,7 @@ namespace ConsulDemoClient
         {
             using (var consul = new Consul.ConsulClient(c =>
           {
-              c.Address = new Uri("http://192.168.1.109:8500");
+              c.Address = new Uri("http://118.89.39.14:8500");
           }))
             {
                 //取在Consul注册的全部服务
@@ -22,4 +22,4 @@ namespace ConsulDemoClient
             Console.ReadKey();
         }
     }
-}
+} 

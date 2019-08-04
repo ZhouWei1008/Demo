@@ -84,7 +84,8 @@ namespace ConsulDemo
                     Check = new AgentServiceCheck
                     {
                         DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(5),
-                        HTTP = $"http://{ip}:{port}/api/Health",
+                        //HTTP = $"http://{ip}:{port}/api/Health",
+                        HTTP = $"https://www.baidu.com/",
                         Interval = TimeSpan.FromSeconds(10),
                         Timeout = TimeSpan.FromSeconds(5),
                     },
@@ -100,12 +101,12 @@ namespace ConsulDemo
                     Console.WriteLine("应用退出，开始从consul注销");
                     consulClient.Agent.ServiceDeregister(serviceId).Wait();
                 }
-            });
+            });                        
         }
         //Consul 配置委托
         private void ConsulConfig(ConsulClientConfiguration config)
         {
-            config.Address = new Uri("http://192.168.1.109:8500"); //Demo硬编码Consul的地址
+            config.Address = new Uri("http://118.89.39.14:8500"); //Demo硬编码Consul的地址
             config.Datacenter = "dc1";
         }
     }
